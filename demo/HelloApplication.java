@@ -11,7 +11,6 @@ import javafx.scene.Scene;
 import java.io.*;
 public class HelloApplication extends Application {
     private static Bank b = new Bank();
-   // AccountHolder holder=new AccountHolder();
     private TextField nameField, balanceField, addressField,accounttypeField,phoneno,accountno;
     private Label balanceValidation, acountInfo;
     AccountType accountType;
